@@ -1,1 +1,58 @@
 @import "tailwindcss";
+* {
+ 
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-family: "Karla", sans-serif; */
+ 
+}
+.stroke-text {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+.highlight {
+  background: linear-gradient(90deg, #15f5b9d0, #002affc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+/* Remove padding and margin from react-slick slides */
+.no-slick-padding .slick-slide {
+  padding: 2px !important;
+  margin: 0 !important;
+}
+
+.no-slick-padding .slick-list {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px); /* Start from left */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* End at normal position */
+  }
+}
+
+.animate-slide-in {
+  animation: slideInFromLeft 0.5s ease-out;
+}
+.HomeBanner-bg-back{
+  background-image: url("./assests/info-bg.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 1%;
+}
