@@ -11,11 +11,12 @@ const Header = () => {
     { name: "CodeChef Training", path: "/codechef" },
     { name: "Edutech Solutions", path: "/edutech" },
   ];
+  
 
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="bg-white shadow-md sticky top-0 px-6 py-4">
+    <header className="bg-white shadow-md sticky top-0 px-6 py-4 z-50">
       <div className="flex justify-between items-center">
 
         {/* Logo */}
