@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Footer() {
   const [openTech, setOpenTech] = useState(false);
   const [openCampus, setOpenCampus] = useState(false);
-  const [openCybersecurity, setOpenCybersecurity] = useState(false); // 👈 New state
+  const [openCybersecurity, setOpenCybersecurity] = useState(false);
   const [openAI, setOpenAI] = useState(false);
 
   return (
@@ -203,32 +203,11 @@ export default function Footer() {
         <div className="text-center text-xs sm:text-sm text-gray-400 border-t border-gray-700 pt-4 mt-8 -mb-8 space-y-2">
           {/* ✅ Policy Links */}
           <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
-            >
-              Refund Policy
-            </a>
+      <Link to="/refund" className="hover:text-teal-300 transition-colors duration-200 cursor-pointer">Refund Policy</Link>
             <span>|</span>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
-            >
-              Privacy Policy
-            </a>
+            <Link to="/privacypolicy" className="hover:text-teal-300 transition-colors duration-200 cursor-pointer">Privacy Policy</Link>
             <span>|</span>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
-            >
-              Terms & Conditions
-            </a>
+            <Link to="/termsandconditions" className="hover:text-teal-300 transition-colors duration-200 cursor-pointer">Terms & Conditions</Link>
           </div>
 
           {/* © Infoziant */}
