@@ -6,7 +6,7 @@ import InquiryFormSerivies from "../InquiryFormSerivies";
 import placementImage from "../../assets/Images/Banner/18-1.webp";
 import internshipImage from "../../assets/Images/Banner/workplace.png";
 import edutechImage from "../../assets/Images/edutech/edutech.gif";
-import CoeImage from "../../assets/Images/Banner/coes.png";
+import CoeImage from "../../assets/Images/Banner/Coes.png";
 import CodeChefImage from "../../assets/Images/Banner/codchef.png";
 import TrainingImage from "../../assets/Images/Banner/coes1.png";
 
