@@ -6,7 +6,7 @@ import TestimonialSection from "../components/c2cservices/Testimonials/Testimoni
 import KeyHighlights from "../components/c2cservices/KeyHighlights/KeyHighlights";
 import WhyChooseImage from "../assets/Images/Banner/Choose2.png";
 import WhatImage from "../assets/Images/Banner/offer2.png";
-import ConsultationFormForCo from "../Pages/ConsultationFormForCo";
+import ConsultationFormForCo from "./ConsultationFormForCo";
 import noprofile from "../assets/noprofile.png";
 import BannerCarousel from "../components/Banner/BannerCarousel";
 
