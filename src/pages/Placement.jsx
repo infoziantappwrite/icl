@@ -2,7 +2,7 @@ import Whatweoffer from "../components/c2cservices/Whatweoffer/Whatweoffer";
 import WhyChoose from "../components/c2cservices/WhyChoose/WhyChoose";
 import WhyChooseImage from "../assets/Images/Banner/ChooseUsPic.png";
 import WhatImage from "../assets/Images/Banner/offer1.png";
-import ConsultationFormForCo from "../Pages/ConsultationFormForCo";
+import ConsultationFormForCo from "./ConsultationFormForCo";
 import BannerCarousel from "../components/Banner/BannerCarousel";
 import PlacementCarousel from "../components/c2cservices/Company/PlacementCarousel";
 import CollegeCarousel from "../components/c2cservices/CollegeClients/CollegeCarousel";
