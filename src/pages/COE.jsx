@@ -5,7 +5,7 @@ import WhyChooseImage from "../assets/Images/Banner/whycoe3.png"
 import WhatImage from "../assets/Images/Banner/empowering3.png";
 import carrerempowerment from "../assets/Images/Banner/team-leader-teamwork-concept.png";
 import KeyHighlights from '../components/c2cservices/KeyHighlights/KeyHighlights';
-import ConsultationFormForCo from '../Pages/ConsultationFormForCo';
+import ConsultationFormForCo from "./ConsultationFormForCo";
 import WhatIsCodeChef from '../components/c2cservices/WhatIs/WhatIs';
 import Achievements from "../components/c2cservices/WhatWeCOE/WhatWeCOE";
 import achievementImg from "../components/c2cservices/WhatWeCOE/broadcast_gif2.gif"; 

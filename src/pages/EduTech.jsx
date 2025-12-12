@@ -4,7 +4,7 @@ import WhatweImage from "../assets/Images/edutech/whatWedo.jpg";
 import { motion } from "framer-motion";
 import InfoziantJourney from "../components/c2cservices/InfoziantJourney/InfoziantJourney";
 import WhatImage from "../assets/Images/Banner/offer6.png";
-import ConsultationFormForCo from "../Pages/ConsultationFormForCo";
+import ConsultationFormForCo from "./ConsultationFormForCo";
 import { FaUniversity, FaUserGraduate, FaHandshake } from "react-icons/fa";
 import CombinedSection from "../components/c2cservices/CombinedSection/CombinedSection";
 import BannerCarousel from "../components/Banner/BannerCarousel";
